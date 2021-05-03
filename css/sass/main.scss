@@ -1,0 +1,176 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$fontTitulos: 'Lato', sans-serif;
+$fontTitulosSize: 24pt;
+$fontTitulosText:  uppercase;
+$fontTitulosSpan: 400;
+$textColor: #000;
+$textColorHover: #e63322;
+
+h2 {
+    font-family: $fontTitulos;
+    font-size: $fontTitulosSize;
+    text-transform: $fontTitulosText;
+    color:$textColor
+}
+
+h2 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    
+    span {
+        font-weight: $fontTitulosSpan;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $textColor;
+}
+
+li {
+    list-style: none;
+}
+
+header, .slider, .benefits, .categorys, .detach, .colection, .best-seller, .plugin-insta, footer {
+    width: 100%;
+}
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+}
+
+nav {
+    
+     a {
+         color: $textColor;
+         border: none!important;
+     }
+     a:hover {
+         color: $textColorHover;
+         border: none!important;
+     }
+}
+
+.nav-tabs {
+    border: none!important;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    left: 26%;
+}
+
+.top-social {
+    position: relative;
+    top: 8px;
+
+    li {
+        float: left;
+    }
+}
+
+.user {
+    position: relative;
+    left:7%;
+}
+
+.slider {
+    position: relative;
+}
+
+.benefits {
+     background-color: #f1f1f1;
+     display: flex;
+}
+
+.benefits-store {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+    li {
+        width: 320px;
+        float: left;
+        margin: 30px;
+    }
+
+    strong {
+        font-size: 20pt;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+    }
+}
+
+.icon1 {
+    background: url("../../img/icon.png") no-repeat;
+    width: 45px;
+    height: 65px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.icon2 {
+    background: url("../../img/icon.png") no-repeat;
+    width: 45px;
+    height: 65px;
+     display: flex;
+     margin: 0 auto;
+}
+
+.icon3 {
+    background: url("../../img/icon.png") no-repeat;
+    width: 45px;
+    height: 65px;
+     display: flex;
+     margin: 0 auto;
+}
+
+.legenda {
+    text-align: center;
+    display: block;
+    font-size: 18pt;
+}
+
+.category-list{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+
+    li {
+        float: left;
+        margin: 80px 19px;
+
+        img {
+            border-radius: 50%;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+            font-size: 24px;
+            line-height: 25px;
+            margin-top: 20px;
+        }
+    }
+}
