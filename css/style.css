@@ -92,18 +92,20 @@ nav a:hover {
   margin: 0 auto; }
 
 .icon2 {
-  background: url("../../img/icon.png") no-repeat;
-  width: 45px;
+  background: url(../../img/icon.png) no-repeat;
+  width: 63px;
   height: 65px;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-position-x: -78px; }
 
 .icon3 {
-  background: url("../../img/icon.png") no-repeat;
-  width: 45px;
+  background: url(../../img/icon.png) no-repeat;
+  width: 63px;
   height: 65px;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-position-x: -166px; }
 
 .legenda {
   text-align: center;
@@ -126,5 +128,170 @@ nav a:hover {
       font-size: 24px;
       line-height: 25px;
       margin-top: 20px; }
+  .category-list a {
+    text-decoration: none;
+    color: #000;
+    display: block; }
+  .category-list a:hover {
+    color: #e63322; }
+  .category-list a img:hover {
+    -webkit-filter: #e63322;
+    position: relative;
+    z-index: -1; }
+
+.detach {
+  overflow: hidden; }
+
+.carousel-product {
+  width: 1200px;
+  margin: 0 auto; }
+  .carousel-product li {
+    float: left;
+    width: 286px;
+    margin-right: 6px; }
+    .carousel-product li strong {
+      display: block;
+      text-align: center; }
+    .carousel-product li span {
+      display: block;
+      text-align: center; }
+    .carousel-product li button {
+      display: flex;
+      margin: 0 auto; }
+  .carousel-product li:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2); }
+
+.colection {
+  overflow: hidden;
+  margin: 20px 0;
+  background: url(../../img/bg-colection.png) no-repeat;
+  width: 100%;
+  height: auto;
+  padding: 80px 0; }
+
+.list-cat-colection {
+  width: 1200px;
+  margin: 0 auto; }
+  .list-cat-colection li {
+    float: left;
+    margin: 39px; }
+  .list-cat-colection a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20pt;
+    line-height: 25px; }
+  .list-cat-colection a:hover {
+    color: #e63322;
+    text-decoration: underline; }
+
+.nav-tabs .nav-link {
+  margin-bottom: 0 !important;
+  background: 0 0 !important;
+  border: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important; }
+
+/*Instagram*/
+.plugin-insta {
+  background: url("../../img/bg-instagram.jpg") no-repeat;
+  width: 100%;
+  height: auto; }
+  .plugin-insta span {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0; }
+  .plugin-insta strong a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 23pt;
+    margin: 10px;
+    position: relative;
+    top: 5px; }
+  .plugin-insta strong a:hover {
+    color: #e63322; }
+
+/*footer*/
+footer {
+  background-color: #222222;
+  overflow: hidden; }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px; }
+  footer a:hover {
+    color: #e63322; }
+
+.content-footer {
+  width: 1200px;
+  margin: 0 auto; }
+
+.logo-footer {
+  float: left;
+  padding: 80px 80px 0px 0px; }
+
+.links-footer {
+  float: left;
+  padding: 100px 10px 10px; }
+
+.last-ul {
+  margin-left: 275px; }
+
+.rights {
+  width: 1200px;
+  height: auto;
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  overflow: hidden; }
+  .rights span {
+    color: #8a8a8a;
+    font-size: 12pt;
+    display: block;
+    text-align: center; }
+    .rights span a {
+      color: #8a8a8a;
+      text-decoration: none; }
+
+.tel {
+  color: #e63322;
+  font-size: 28pt; }
+
+.sac {
+  color: #fff;
+  font-size: 18pt; }
+
+.redes {
+  float: right;
+  padding: 10px 0 50px; }
+
+.facebook {
+  background: url(../../img/facebook.png) no-repeat;
+  width: 24px;
+  height: 25px;
+  float: left;
+  margin-right: 15px; }
+  .facebook a {
+    display: block;
+    text-indent: -9999px; }
+
+.instagram {
+  background: url(../../img/instagram.png) no-repeat;
+  width: 24px;
+  height: 25px;
+  float: left; }
+  .instagram a {
+    display: block;
+    text-indent: -9999px; }
+
+/*Carousel*/
+.carousel-control-next, .carousel-control-prev {
+  top: 85px !important; }
+
+.carousel-control-prev-icon {
+  background-color: #f1f1f1;
+  border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
