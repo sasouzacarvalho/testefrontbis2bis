@@ -13,14 +13,12 @@ $fontTitulosSpan: 400;
 $textColor: #000;
 $textColorHover: #e63322;
 
+
 h2 {
     font-family: $fontTitulos;
     font-size: $fontTitulosSize;
     text-transform: $fontTitulosText;
-    color:$textColor
-}
-
-h2 {
+    color:$textColor;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -174,6 +172,7 @@ nav {
             line-height: 25px;
             margin-top: 20px;
         }
+        
     }
 
     a {
@@ -264,6 +263,28 @@ nav {
      border: 0!important; 
      border-top-left-radius: 0!important; 
      border-top-right-radius: 0!important;
+  }
+
+/*Colections*/
+
+.list-cat-colection-img {
+    width: 1200px;
+    margin: 0 auto;
+
+    ul {
+        padding: 0!important;
+    }
+
+    li {
+        float: left;
+        margin: 10px;
+    }
+}
+
+  /*best-seller*/
+
+  .best-seller {
+      overflow: hidden;
   }
 
 
